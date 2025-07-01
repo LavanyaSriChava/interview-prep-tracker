@@ -59,6 +59,17 @@ A **full-stack web application** to organize, track, and visualize your technica
 
 ### 🖥️ Frontend Setup
 
+
+📬 Contact
+Lavanya Chava
+🔗 GitHub: LavanyaSriChava
+📫 Email: lavanya.chava728@gmail.com 
+
+⭐ Star This Project
+If you found this backend useful for your learning or portfolio, consider giving it a ⭐ on GitHub!
+
+
+
 ```bash
 git clone https://github.com/LavanyaSriChava/interview-prep-tracker.git
 cd interview-prep-tracker
