@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# 🧠 Interview Prep Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **full-stack web application** to organize, track, and visualize your technical interview preparation progress across topics, categories, difficulties, and companies.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🔗 Project Repositories
 
-### `npm start`
+- 🖥️ **Frontend (React + TypeScript)**: [interview-prep-tracker](https://github.com/LavanyaSriChava/interview-prep-tracker)
+- 🔧 **Backend (Spring Boot + PostgreSQL)**: [interview-prep-tracker-backend](https://github.com/LavanyaSriChava/interview-prep-tracker-backend)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✨ Features
 
-### `npm test`
+- 🔍 Browse DSA topics categorized by difficulty and type
+- ✅ Mark questions as completed, favorite, or bookmarked
+- 📊 Stats dashboard with pie charts (status, category, difficulty) and bar chart (company-wise)
+- 📶 Company-wise progress bars (completed vs total)
+- 🔒 Firebase authentication (Google Sign-In)
+- 🎯 Add your own topics
+- 🌐 Persistent backend using Spring Boot and PostgreSQL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📊 Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| Layer       | Technology                             |
+|-------------|-----------------------------------------|
+| Frontend    | React.js, TypeScript, CSS, Recharts     |
+| Backend     | Spring Boot, Java, Spring Data JPA      |
+| Database    | PostgreSQL                              |
+| Authentication | Firebase (Google OAuth)             |
+| Build Tools | Maven (backend), npm (frontend)         |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Screenshots
 
-### `npm run eject`
+> ![home_page](https://github.com/user-attachments/assets/5861e8d6-aeec-4231-b95b-af2611cf35c0)
+> ![addtopic](https://github.com/user-attachments/assets/eba52a1f-0fc8-40d8-8823-2eaf65f128b7)
+> ![bookmarks](https://github.com/user-attachments/assets/7c461f3a-459f-4d56-a4bc-452ae036bf9d)
+> ![favorites](https://github.com/user-attachments/assets/301f25f1-403e-4a5d-94f0-c8782df301bf)
+> ![company](https://github.com/user-attachments/assets/052ecccc-10be-4ad8-907c-a5a78f9c5506)
+> ![stats1](https://github.com/user-attachments/assets/fa635b39-2bb0-4f81-bd93-ea285de30354)
+> ![stats2](https://github.com/user-attachments/assets/e3eaeebb-bb8d-4f2e-bc17-b2ad7497c7da)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+---
+
+## 🚀 Getting Started
+
+### 🖥️ Frontend Setup
+
+```bash
+git clone https://github.com/LavanyaSriChava/interview-prep-tracker.git
+cd interview-prep-tracker
+npm install
+npm start
